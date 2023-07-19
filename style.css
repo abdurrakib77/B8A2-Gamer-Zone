@@ -69,30 +69,48 @@ nav li a {
 
 /* main styles */
 
-main {
+/* main {
     max-width: 1440px;
     margin: 0 auto;
-}
+} */
 
 /* goat styles */
 
+.goat-icon div {
+    display: flex;
+}
+
 .goat-content {
-    background-image: url(images/Group\ 14.png);
-    width: 901px;
-    height: 700px;
-    flex-shrink: 0;
+    padding: 100px 0px;
+    background-image: url("images/Group\ 14.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-left: 330px;
+    margin-top: 16px;
+
 
 }
 
+/* .goat-icon{
+    padding: 30px;
+
+} */
 
 .goat-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-right: 40px;
+
 }
 
-.goat-content h2 {
+.goat-img-container {
+    margin-right: 167px;
+
+}
+
+/* .goat-content h2 {
     color: #0B0223;
     font-size: 30px;
     height: 5px;
@@ -100,24 +118,29 @@ main {
     margin-top: 138px;
 
 
-}
+} */
 
 .goat {
     color: rgb(182, 81, 215);
     font-size: 4rem;
+
     margin-top: 37px;
-    padding-left: 198px;
 
 }
 
-.goat-content p {
+/* .goat-content p {
     height: 10px;
     height: 10px;
     margin-right: 29px;
     padding-left: 226px;
-}
+} */
 
 /* button styles */
+
+.btn-1 {
+    display: flex;
+
+}
 
 .btn-primary {
     color: #FFF;
@@ -142,6 +165,75 @@ main {
     border: none;
     margin-top: 20px;
     padding-left: 30px;
+    margin-left: 20px;
+}
+
+/* another section styles */
+
+.container-1 {
+    text-align: center;
+}
+
+.container-1 h3 {
+    font-size: 48px;
+    line-height: 30px;
+}
+
+.container-1 p {
+    font-size: 18px;
+}
+
+.funny-videos {
+    color: rgb(182, 81, 215);
+}
+
+.four-section {
+    display: flex;
+    justify-content: center;
+}
+
+.four-section div {
+    width: 400px;
+}
+
+.play {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 170px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.support {
+    position: absolute;
+    top: 400px;
+    left: -150px;
+
+}
+
+.right-side-img {
+    position: relative;
+}
+
+.left-side-content {
+    font-size: 30px;
+    width: 300px;
+    float: right;
+    margin: 0 auto;
+    
+}
+.play-colour{
+    color:#F948B2;
+}
+.left-side-content p{
+    font-size: 16px ;
+
+}
+
+/* career style */
+
+.careers{
+    margin-top: 200px;
 }
 
 /* responsive media queries */
