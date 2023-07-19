@@ -23,9 +23,12 @@ header {
     margin: auto;
 }
 
-.gamer-g {
+.gamer-g,
+.gamer-g-2 {
     color: #FF42A5;
 }
+
+.gamer-g-2 {}
 
 /* nav styles */
 
@@ -220,20 +223,96 @@ nav li a {
     width: 300px;
     float: right;
     margin: 0 auto;
-    
+
 }
-.play-colour{
-    color:#F948B2;
+
+.play-colour {
+    color: #F948B2;
 }
-.left-side-content p{
-    font-size: 16px ;
+
+.left-side-content p {
+    font-size: 16px;
 
 }
 
 /* career style */
 
-.careers{
+.careers {
     margin-top: 200px;
+    display: flex;
+    align-items: center;
+    padding: 10px 180px;
+    background-color: #FF42A5;
+    justify-content: center;
+    color: #FFF;
+}
+
+.career-left h3 {
+    font-size: 48px;
+}
+
+.career-right {
+    width: 100%;
+}
+
+.child-main {
+    display: flex;
+    gap: 100px;
+}
+
+.btn-3 {
+    color: #FF42A5;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+/* footer styles */
+
+footer {
+    background-color: #0B0223;
+    color: #FFF;
+    width: 1920px;
+    height: 636px;
+
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.footer-logo h3 {
+    font-size: 48px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 0px 25px;
+    margin-top: 20px;
+}
+
+footer ul img {
+    width: 40px;
+
+}
+
+footer p {
+    text-align: center;
+    margin-top: 50px;
+
+
 }
 
 /* responsive media queries */
