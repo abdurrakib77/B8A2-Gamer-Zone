@@ -270,7 +270,28 @@ nav li a {
     border-radius: 50px;
     border: none;
 }
-
+/* sec5 style */
+.sec5{
+    text-align: center;
+    padding: 100px 0;
+}
+.sec5 button{
+    background-color: #ffffff;
+    border: none;
+}
+.sec5 button:hover{
+    border-radius: 40px;
+    border-color: pink;
+    border-style: solid;
+}
+.sec5 img, .sec5 p{
+    display: inline-block;
+}
+.sec5 p{
+    position: relative;
+    top: -23px;
+    padding-left: 10px;
+}
 /* footer styles */
 
 footer {
@@ -285,7 +306,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
 }
 
 .footer-logo h3 {
@@ -302,17 +322,14 @@ footer ul li {
     padding: 0px 25px;
     margin-top: 20px;
 }
-
-footer ul img {
-    width: 40px;
-
-}
-
 footer p {
     text-align: center;
     margin-top: 50px;
-
-
+}
+.social-icon a i{
+   font-size: 41px;
+    color: #ffffff;
+    padding-right: 55px;
 }
 
 /* responsive media queries */
