@@ -5,7 +5,13 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+body{
+    margin: 0;
+}
+
 /* header styles */
+
+
 
 header {
     /* background-color: #FFFFFF; */
@@ -297,8 +303,9 @@ nav li a {
 footer {
     background-color: #0B0223;
     color: #FFF;
-    width: 1920px;
-    height: 636px;
+    margin: 0;
+    /* width: 1920px;
+    height: 636px; */
 
 }
 
@@ -334,20 +341,147 @@ footer p {
 
 /* responsive media queries */
 
-/* mobile devices */
+/* Mobile devices */
 
 @media screen and (max-width: 576px) {
+    header {
+      margin-bottom: 20px;
+    }
+  
+    .gamer-icon {
+      margin-bottom: 20px;
+    }
+
+    .goat-container, .four-section{
+        flex-direction: column;
+        
+    }
+    .goat-content{
+        padding-left: 70px;
+        }
+    .goat-img-container img {
+        width: 100%;
+        
+        }
+        .main {
+width: 80%;
+        }
+        .support{
+            top: 200px;
+            width: 40%;
+            left: 20px;
+        }
+        .goat-img-container{
+            margin: 0;
+        }
+        .career-right img {
+            width: 100%;
+        }
+  
+    .nav-title {
+      font-size: 24px;
+    }
+  
     nav {
-        flex-direction: column;
-
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
     }
-
+  
+    nav>ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
     .navigation-logo {
-        flex-direction: column;
-        padding: 8px;
+      flex-direction: row;
+      margin-top: 10px;
     }
-}
-
-/* tablet or medium devices */
-
-@media screen and (min-width:576px) and (max-width:960px) {}
+  
+    .navigation-logo img {
+      width: 30px;
+      height: 14px;
+    }
+    .goat-container {
+        grid-template-columns: ;
+      }
+    
+      .goat {
+        font-size: 2.5rem;
+      }
+    
+      .btn-primary,
+      .btn-secondary {
+        padding: 12px 25px;
+      }
+    
+      .four-section div {
+        width: 100%;
+      }
+    
+      .play {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 80px;
+      }
+    
+      .right-side-img {
+        margin-top: 20px;
+        text-align: center;
+      }
+    
+      .right-side-img img {
+        max-width: 100%;
+        height: auto;
+      }
+    
+      .left-side-content {
+        font-size: 20px;
+        width: 100%;
+        float: none;
+        text-align: center;
+      }
+    
+      .careers {
+        flex-direction: column;
+        margin-top: 120px;
+        padding: 10px;
+      }
+    
+      .child-main {
+        flex-direction: column;
+        gap: 20px;
+      }
+    
+      .sec5 {
+        padding: 50px 0;
+      }
+    
+      .sec5 button,
+      .sec5 img,
+      .sec5 p {
+        display: block;
+        margin: 10px auto;
+      }
+    
+      .social-icon a i {
+        font-size: 30px;
+        padding-right: 20px;
+      }
+      footer ul li{
+        margin: 0;
+        padding: 0;
+      }
+    }
+    
+    /* Tablet or medium devices */
+    @media screen and (min-width: 577px) and (max-width: 960px) {
+      /* Adjust styles as needed for medium devices */
+    }
+    
+    /* Larger devices (Desktops) */
+    @media screen and (min-width: 961px) {
+      /* Adjust styles as needed for larger devices */
+    }    
+  
